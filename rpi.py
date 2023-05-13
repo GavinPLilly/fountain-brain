@@ -70,7 +70,6 @@ class Ultra_sonic:
                     pass
         measurements.sort()
         middle_average = (measurements[1] + measurements[2] + measurements[3]) / 3
-= (self._HEIGHT_OF_TANK - middle_average + self._SENSOR_TO_TOP) / self._HEIGHT_OF_TANK
         percentage_filled = (
                                 (
                                     self._HEIGHT_OF_TANK -
